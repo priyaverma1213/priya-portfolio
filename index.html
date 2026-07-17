@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Priya Verma Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="favicon.jpeg">
+
+    </head>
+    <body>
+        <nav>
+    <h2>Priya Verma</h2>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>  
+
+    
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <img src="priya.jpeg" alt="Priya Verma" class="hero-img">
+
+        <h1>Hi, I'm <span>Priya Verma</span></h1>
+
+        <h2>Aspiring Data Analyst & Web Developer</h2>
+
+        <p>
+            B.Tech CSE (Data Science) Student passionate about
+            Data Analytics, Power BI, Python and Web Development.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn1">
+                View Projects
+            </a>
+
+            <a href="#contact" class="btn2">
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <section id="about">
+    <h2>About Me</h2>
+    <div class="about-card">
+
+    <div class="about-content">
+        <img src="priya2.jpeg" class="about-img">
+
+        <div class="about-text">
+            <h3>Hello, I'm Priya Verma 👋</h3>
+
+            <p>
+                I am a B.Tech CSE (Data Science) student at CDLSIET Panniwala Mota, Sirsa.
+                I am passionate about Data Analytics, Power BI, Python and Web Development.
+            </p>
+
+            <p>
+                I enjoy building dashboards, analyzing data and creating web applications.
+                Currently, I am learning Data Analytics tools and working on real-world projects.
+            </p>
+
+        </div>
+<div class="about-tags">
+    <span>📊 Data Analytics</span>
+    <span>🐍 Python</span>
+    <span>📈 Power BI</span>
+    <span>🌐 Web Development</span>
+</div>
+    </div>
+</section>
+
+
+<div class="stats">
+    <div class="stat-box">
+        <h3>4+</h3>
+        <p>Skills</p>
+    </div>
+
+    <div class="stat-box">
+        <h3>3+</h3>
+        <p>Projects</p>
+    </div>
+
+    <div class="stat-box">
+        <h3>2026</h3>
+        <p>Graduation</p>
+    </div>
+</div>
+<br>
+
+    <section id="education">
+    <h2>EDUCATION</h2>
+
+    <div class="edu-grid">
+
+        <div class="edu-card">
+            <span>2025 - Present</span>
+            <h3>B.Tech CSE (Data Science)</h3>
+            <p>CDLSIET Panniwala Mota, Sirsa</p>
+            <div class="score">Pursuing</div>
+        </div>
+
+        <div class="edu-card">
+            <span>2022 - 2025</span>
+            <h3>Diploma</h3>
+            <p>Govt. polytechnic for women, sirsa</p>
+            <div class="score">69%</div>
+        </div>
+
+        <div class="edu-card">
+            <span>2025</span>
+            <h3>Senior Secondary Education (+2)</h3>
+            <p>Senior Secondary Education</p>
+            <div class="score">59%</div>
+        </div>
+
+        <div class="edu-card">
+            <span>2019</span>
+            <h3> Marticulation (10th)</h3>
+            <p>Shree Ram New Satluj Sr Sec School,  Sirsa</p>
+            <div class="score">77%</div>
+        </div>
+
+    </div>
+</section>
+
+    <section id ="skills">
+    <h2><span>SKILLS</span> ARSENAL</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <div class="icon">🐍</div>
+            <h3>Python</h3>
+            <p>Python programming, problem solving and Django development.</p>
+            <span class="level">ADVANCED</span>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon">⚡</div>
+            <h3>Django</h3>
+            <p>Building dynamic websites using Django framework.</p>
+            <span class="level">INTERMEDIATE</span>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon">🌐</div>
+            <h3>HTML & CSS</h3>
+            <p>Responsive web design and modern user interfaces.</p>
+            <span class="level">ADVANCED</span>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon">📊</div>
+            <h3>Power BI</h3>
+            <p>Dashboard creation, visualization and business insights.</p>
+            <span class="level">INTERMEDIATE</span>
+        </div>
+
+    </div>
+</section>
+
+    <section id="projects" >
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+    <h3>🎂 Birthday Website</h3>
+    <p>Created using Django, HTML and CSS with animations and interactive pages.</p>
+    <button class="project-btn" onclick="openGallery()">
+    View Project
+</button>
+    </div>
+
+    <div id="galleryPopup" class="popup">
+
+    <span class="close" onclick="closeGallery()">&times;</span>
+
+    <div class="popup-content">
+
+        <img src="Screenshot 2026-07-16 115855.png">
+
+        <img src="Screenshot 2026-07-16 115642.png">
+
+        <img src="Screenshot 2026-07-16 115526.png">
+
+        
+
+    </div>
+
+</div>
+
+        <div class="project-card">
+    <h3>🦁 Zoo Management System</h3>
+
+    <p>
+        Django based project for managing animals, staff and records.
+    </p>
+
+    <button class="project-btn" onclick="openZoo()">
+    View Project
+</button>
+</div>
+
+<div id="ZooPopup" class="popup">
+
+    <span class="close" onclick="closeZoo()">&times;</span>
+
+    <div class="popup-content">
+
+        <img src="Screenshot 2026-07-16 171013.png">
+
+        <img src="Screenshot 2026-07-16 171042.png">
+
+        <img src="Screenshot 2026-07-16 171103.png">
+
+        <img src="Screenshot 2026-07-16 171216.png">
+    </div>
+    </div>
+        <div class="project-card">
+    <h3>📊 Blinkit Dashboard</h3>
+
+    <p>Power BI dashboard with sales analysis and business insights.</p>
+    <button class="project-btn" onclick="openBlinkit()">
+    View Project
+</button>
+</div>
+<div id= "blinkitPopup" class="popup">
+    <span class="close" onclick="closeBlinkit()">&times;</span>
+    <div class="popup-content">
+        <img src="Screenshot 2026-07-17 102731.png">
+        
+    </div>
+    </div>
+</section>
+
+<section id="contact" >
+    <h2>Contact Me</h2>
+    <div class="contact-card">
+    <p>📧pverma73473@gmail.com</p>
+    <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/priya-verma-95171priya-verma-data-analyst?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+    
+            Visit Profile
+        </a>
+    </p>
+    <p>📍Sirsa, Haryana</p>
+    </div>
+</section>
+
+
+<script>
+
+function openGallery(){
+    document.getElementById("galleryPopup").style.display="block";
+}
+
+function closeGallery(){
+    document.getElementById("galleryPopup").style.display="none";
+}
+
+</script>
+
+
+<script>
+    function openZoo(){
+        document.getElementById("ZooPopup").style.display="block";
+    }
+
+    function closeZoo(){
+        document.getElementById("ZooPopup").style.display="none";
+    }
+
+
+    function openBlinkit(){
+        document.getElementById("blinkitPopup").style.display="block";
+    }
+
+    function closeBlinkit(){
+        document.getElementById("blinkitPopup").style.display="none";
+    }
+
+
+</script>
+
+
+
+
+
+<footer>
+    <p>© 2026 Priya Verma | Data Analyst Portfolio</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
